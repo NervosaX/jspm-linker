@@ -1,7 +1,7 @@
 {
   "name": "jspm-linker",
   "version": "0.0.2",
-  "description": "Used for keeping a link dependency tree up to date",
+  "description": "Keep JSPM linked packages up to date",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

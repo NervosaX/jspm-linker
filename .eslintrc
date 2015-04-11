@@ -1,0 +1,38 @@
+{
+	"env": {
+    "node": true,
+		"es6": true
+	},
+	"parser": "babel-eslint",
+	"rules": {
+		"camelcase": 0,
+		"global-strict": 0,
+		// Don't require use strict, for now
+		"strict": 0,
+		"no-unused-vars": [2, { "vars": "all", "args": "all" }],
+
+		// STYLISTIC
+		"no-underscore-dangle": 0,
+		"new-cap": [2, {
+			// Allow lowercase when not calling function with new
+			"capIsNew": false
+		}],
+		"space-after-keywords": [1, "always", { "checkFunctionKeyword": false } ],
+		"brace-style": [2, "1tbs", { "allowSingleLine": true }],
+		// Commas should be at the end, not at the start
+		"comma-style": [2, "last"],
+		"eol-last": 2,
+		// Eventually, maybe...
+		"func-names": 0,
+		"new-parens": 2,
+		"no-lonely-if": 2,
+		"no-spaced-func": 2,
+		"space-after-function-name": [1, "never"],
+		"space-in-parens": [2, "never"],
+		"spaced-line-comment": 2
+	},
+	"ecmaFeatures": {
+		"modules": true,
+		"jsx": true
+	}
+}
