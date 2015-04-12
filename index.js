@@ -6,9 +6,9 @@ var remove = require("./lib/remove");
 var watch = require("./lib/watch");
 
 var yargs = require("yargs")
-  .usage("Usage: $0 <command> [options]")
-  .demand(1)
-  .command("add", "Add a project to the linking list")
+	.usage("Usage: $0 <command> [options]")
+	.demand(1)
+	.command("add", "Add a project to the linking list")
 	.command("remove", "Remove a project from the linking list")
 	.command("list", "List currently linked files")
 	.command("update", "Update all currently linked files")
