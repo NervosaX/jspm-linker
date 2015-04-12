@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "chalk": "^1.0.0",
-    "gaze": "^0.5.1",
+    "chokidar": "^1.0.1",
     "jspm": "^0.15.1",
     "lodash": "^3.6.0",
     "yargs": "^3.7.0"
