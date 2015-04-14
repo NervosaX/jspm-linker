@@ -58,7 +58,6 @@ switch (yargs.argv._[0]) {
 			.help("help")
 			.alias("h", "help")
 			.argv;
-		break;
 		update();
 		break;
 	case "watch":
