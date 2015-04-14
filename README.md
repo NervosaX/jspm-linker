@@ -21,9 +21,12 @@ available globally as `jspm-linker`.
 package.json) and use this command to add to your local watch list. Do
 this for each of your packages.
 
+Note: `"jspmLinkable": true` should be added to the package.json files you
+wish for this tool to affect.
+
 	######Options:
 	`--recursive`: Recursively links modules from the current directory.
-	Useful for setting up initial dev environments.
+	Useful for setting up initial dev environments.X
 
 * `jspm-linker remove` - Repeat the same as above, but removes from the
  watch list.
