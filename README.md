@@ -26,7 +26,7 @@ wish for this tool to affect.
 
 ######Options:
 `--recursive`: Recursively links modules from the current directory.
-Useful for setting up initial dev environments.X
+Useful for setting up initial dev environments.
 
 * `jspm-linker remove` - Repeat the same as above, but removes from the
  watch list.
