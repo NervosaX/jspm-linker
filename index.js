@@ -31,10 +31,13 @@ switch (yargs.argv._[0]) {
 	case "add":
 		args = yargs.reset()
 			.usage("Usage: $0 add [options]")
-			.help("help")
-			.alias("h", "help")
+			.help("help").alias("h", "help")
+			.describe("recursive", "Find linkable packages recursively from the current directory")
+			.alias("r", "recursive")
 			.argv;
-		add();
+
+		var recursive = args.recursive || false;
+		add(recursive);
 		break;
 	case "list":
 		args = yargs.reset()
