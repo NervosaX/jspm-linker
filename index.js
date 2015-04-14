@@ -6,7 +6,7 @@ var remove = require("./lib/remove");
 var watch = require("./lib/watch");
 
 var yargs = require("yargs")
-	.usage("Usage: $0 <command> [options]")
+	.usage("Usage: Usage: $0 <command> [options]")
 	.command("add", "Add a project to the linking list")
 	.command("remove", "Remove a project from the linking list")
 	.command("list", "List currently linked files")
@@ -30,7 +30,7 @@ var args;
 switch (yargs.argv._[0]) {
 	case "add":
 		args = yargs.reset()
-			.usage("$0 add")
+			.usage("Usage: $0 add [options]")
 			.help("help")
 			.alias("h", "help")
 			.argv;
@@ -38,7 +38,7 @@ switch (yargs.argv._[0]) {
 		break;
 	case "list":
 		args = yargs.reset()
-			.usage("$0 list")
+			.usage("Usage: $0 list [options]")
 			.help("help")
 			.alias("h", "help")
 			.argv;
@@ -46,7 +46,7 @@ switch (yargs.argv._[0]) {
 		break;
 	case "remove":
 		args = yargs.reset()
-			.usage("$0 remove")
+			.usage("Usage: $0 remove [options]")
 			.help("help")
 			.alias("h", "help")
 			.argv;
@@ -54,7 +54,7 @@ switch (yargs.argv._[0]) {
 		break;
 	case "update":
 		args = yargs.reset()
-			.usage("$0 update")
+			.usage("Usage: $0 update [options]")
 			.help("help")
 			.alias("h", "help")
 			.argv;
@@ -62,7 +62,7 @@ switch (yargs.argv._[0]) {
 		break;
 	case "watch":
 		args = yargs.reset()
-			.usage("$0 watch")
+			.usage("Usage: $0 watch [options]")
 			.help("help")
 			.alias("h", "help")
 			.argv;
