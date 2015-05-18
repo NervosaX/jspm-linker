@@ -1,11 +1,11 @@
 {
   "name": "jspm-linker",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Keep JSPM linked packages up to date",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-	"main": "index",
+  "main": "index",
   "bin": {
     "jspm-linker": "index.js"
   },
