@@ -1,6 +1,6 @@
 {
   "name": "jspm-linker",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Keep JSPM linked packages up to date",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
