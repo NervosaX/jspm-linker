@@ -14,7 +14,8 @@
   "dependencies": {
     "chalk": "^1.0.0",
     "chokidar": "^1.0.1",
-    "jspm": "^0.15.7",
+    "fs-extra": "^0.24.0",
+    "jspm": "^0.16.12",
     "lodash": "^3.6.0",
     "multi-glob": "^0.4.0",
     "yargs": "^3.7.0"
