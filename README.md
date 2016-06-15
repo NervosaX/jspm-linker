@@ -1,4 +1,4 @@
-# JSPM Linker
+# JSPM Linker (For JSPM 0.16)
 
 A basic link watcher/manager for the [jspm CLI](https://github.com/jspm/jspm-cli).
 
